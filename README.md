@@ -18,5 +18,3 @@
 
 > *Note: You have to read the complete guide below to make
 it work perfectly, we recommend not to skip!* 
-
-# [GitHub](http://github.com)
