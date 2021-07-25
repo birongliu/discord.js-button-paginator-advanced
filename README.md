@@ -2,6 +2,8 @@
 <p align="center"><img width=12.5% src="https://icons-for-free.com/download-icon-code+collaboration+github+network+round+social+icon-1320086084536018107_512.png"></p>
 <p align="center">Evo Pro</p>
 <p align="center"><img width=100% src="Images/IMG_20210725_223113.png"></p>
+<i>A curated list of awesome Github Profile READMEs</i>
+
 <a href="https://github.com/abhisheknaiidu/awesome-github-profile-readme/stargazers"><img src="https://img.shields.io/github/stars/abhisheknaiidu/awesome-github-profile-readme" alt="Stars Badge"/></a>
 <a href="https://github.com/abhisheknaiidu/awesome-github-profile-readme/network/members"><img src="https://img.shields.io/github/forks/abhisheknaiidu/awesome-github-profile-readme" alt="Forks Badge"/></a>
 <a href="https://github.com/abhisheknaiidu/awesome-github-profile-readme/pulls"><img src="https://img.shields.io/github/issues-pr/abhisheknaiidu/awesome-github-profile-readme" alt="Pull Requests Badge"/></a>
