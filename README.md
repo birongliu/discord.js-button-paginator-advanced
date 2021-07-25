@@ -16,5 +16,5 @@
 ---
 <h1 align="center">Button Paginator • discord.js</h1> 
 
-> *Note: This readme is made to work perfectly in an Android
-view, works fine also on desktop view!*
+> *Note: You have to read the complete guide below to make
+it work perfectly, we recommend not to skip!* 
