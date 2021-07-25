@@ -11,7 +11,7 @@
 <a href="https://github.com/Evo-Pro/discord.js-button-paginator-advanced"><img src="https://img.shields.io/github/forks/Evo-Pro/discord.js-button-paginator-advanced" alt="Forks Badge"/></a>
 <a href="https://github.com/Evo-Pro/discord.js-button-paginator-advanced"><img src="https://img.shields.io/github/issues-pr/Evo-Pro/discord.js-button-paginator-advanced" alt="Pull Requests Badge"/></a>
 <a href="https://github.com/Evo-Pro/discord.js-button-paginator-advanced"><img src="https://img.shields.io/discord/868923664110878761?color=%235865f2&label=Join%20For%20Support" alt="Size Badge"/></a>
-
 </div>
 
-# <h3 align="center">Button Paginator • discord.js</h3> 
+---
+<h1 align="center">Button Paginator • discord.js</h1> 
