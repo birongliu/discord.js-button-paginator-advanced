@@ -8,7 +8,7 @@
 <a href="https://github.com/Evo-Pro/discord.js-button-paginator-advanced"><img src="https://img.shields.io/github/forks/Evo-Pro/discord.js-button-paginator-advanced" alt="Forks Badge"/></a>
 <a href="https://github.com/Evo-Pro/discord.js-button-paginator-advanced"><img src="https://img.shields.io/github/issues-pr/abhisheknaiidu/awesome-github-profile-readme" alt="Pull Requests Badge"/></a>
 <a href="https://github.com/Evo-Pro/discord.js-button-paginator-advanced"><img src="https://img.shields.io/github/issues/Evo-Pro/discord.js-button-paginator-advanced" alt="Issues Badge"/></a>
-<a href="https://github.com/Evo-Pro/discord.js-button-paginator-advanced"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/abhisheknaiidu/awesome-github-profile-readme?color=2b9348"></a>
+<a href="https://github.com/Evo-Pro/discord.js-button-paginator-advanced"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Evo-Pro/discord.js-button-paginator-advanced"></a>
 <a href="https://github.com/Evo-Pro/discord.js-button-paginator-advanced"><img src="https://img.shields.io/github/license/Evo-Pro/discord.js-button-paginator-advanced?logoColor=2b9348" alt="License Badge"/></a>
 </div>
 
