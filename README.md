@@ -4,4 +4,4 @@
 <p align="center"><img width=100% src="Images/IMG_20210725_223113.png"></p>
 
 
-<h3 align="center">Button Paginator • discord.js</h3>
+# <h3 align="center">Button Paginator • discord.js</h3>
