@@ -33,6 +33,8 @@ run button paginator without any errors or problems.
 ---
 
 ## 💡Installation
+
+###### Console Command
 ```
 npm install discord.js-button-paginator
 ```
