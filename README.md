@@ -27,10 +27,10 @@ run button paginator without any errors or problems.
 * Node.js: [^14.x](https://nodejs.org)<br />
 * discord.js: [13.0.0 dev](https://github.com/discordjs/discord.js/)
 
-<a href="https://github.com/discordjs/discord.js/"><img src="https://img.shields.io/badge/Node.js-%5E14.x-green" alt="Issues Badge"/></a>
-<a href="https://github.com/Evo-Pro/discord.js-button-paginator-advanced"><img src="https://img.shields.io/badge/discord.js-13.0.0%20dev-5865F2" alt="Issues Badge"/></a>
+<a href="https://nodejs.org"><img src="https://img.shields.io/badge/Node.js-%5E14.x-green" alt="Issues Badge"/></a>
+<a href="https://github.com/discordjs/discord.js/"><img src="https://img.shields.io/badge/discord.js-13.0.0%20dev-5865F2" alt="Issues Badge"/></a>
 
 ---
 
-## Installation
+## 💡Installation
 * **`npm install discord.js-button-paginator`**
