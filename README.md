@@ -18,3 +18,11 @@
 
 > *Note: You have to read the complete guide below to make
 it work perfectly, we recommend not to skip!* 
+<br>
+<br>
+
+##   📚Requirements
+You must atleast have the minimum of these requirements to
+run button-paginator npm without any errors or problems.
+* [Node.js: ^14.x](https://nodejs.org)
+* [discord.js: ^13.0.0 dev](https://github.com/discordjs/discord.js/)
