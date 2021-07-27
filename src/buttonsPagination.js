@@ -9,9 +9,20 @@ module.exports = {
 
     const { MessageButton, MessageActionRow } = require('discord.js')
 
-    const nextId = 
-    const previousId = 
-    const homeId = 
+    function getRandomString(length) {
+      const randomChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+      let result = '';
+      for (let i = 0; i < length; i++) {
+        result += randomChars.charAt(
+        Math.floor(Math.random() * randomChars.length),
+        );
+      }
+      return result;
+    }
+
+    const nextId = getRandomString(20)
+    const previousId = getRandomString(20)
+    const homeId = getRandomString(20)
 
     let nextButton = options.nextButton || new MessageButton().setStyle('SUCCESS').setLabel('Next').setCustomId(nextId)
     let previousButton = options.previousButton || new MessageButton().setStyle('DANGER').setLabel('Previous').setCustomId(previousId)
