@@ -91,4 +91,10 @@ module.exports = {
         default:
         break;
       }
+      await i.defer();
+      await i.update({
+      embeds: options.embeds[page],
+      components: allComponents,
+      collector.resetTimer();
+      })
     })
