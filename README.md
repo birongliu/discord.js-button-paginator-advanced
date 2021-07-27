@@ -114,3 +114,6 @@ paginationEmbed(message, pages, buttonList, timeout);
 </tr>
 </table>
 </div>
+
+## 📍Issues
+Any issues are welcomed! Report it by opening a [new issue]() or by creating a [pull request]()
