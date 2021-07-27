@@ -31,7 +31,7 @@ run button paginator without any errors or problems.
 <a href="https://github.com/discordjs/discord.js/"><img src="https://img.shields.io/badge/discord.js-13.0.0%20dev-5865F2" alt="Issues Badge"/></a>
 <br />
 
-## 💡Installation
+## Installation
 
 ###### Console Command
 ```
