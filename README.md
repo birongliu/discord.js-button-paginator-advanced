@@ -94,11 +94,23 @@ paginationEmbed(message, pages, buttonList, timeout);
 <br />
 
 > *Note: Non-interactive buttons like link buttons aren't supported yet. If you want to create one such that, code it separately.*
-<br />
 
-## 😱Features
+---
+<div align="center">
+<table>
+<tr>
+<td>
+
+<h2 align="center"> 😱Features </h2>
+
 * Custom Buttons
 * Time Resets After Every Clicks!
 * Auto Disabling Buttons
 * Custom Embeds
 * Easy And Flexible.
+
+
+</td>
+</tr>
+</table>
+</div>
