@@ -45,12 +45,10 @@ module.exports = {
       })
     }
 
-    const regexId = new RegExp('^\d{17,19}$')
-
     let send;
-    if (regexId.test(message.author.id) == true) {
+    if (typeof message.author.username == 'string') {
       send = message.channel.send;
-    } else if (regexId.test(message.user.id) == true) {
+    } else if (typeof message.user.username == 'string') {
       if (message.deferred == true) {
         send = interaction.editReply;
       } else if (messsage.deferred == false) {
