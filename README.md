@@ -116,7 +116,7 @@ paginationEmbed(message, pages, buttonList, timeout);
 </div>
 
 ---
-<img src="https://user-images.githubusercontent.com/10379601/29446482-04f7036a-841f-11e7-9872-91d1fc2ea683.png" height="200" align="right">
+<img src="https://github.com/Evo-Pro/discord.js-button-paginator-advanced/blob/main/Images/PngItem_1191075.png" height="200" align="right">
 
 ## 📍Issues
 Any issues are welcomed! Please Report it by opening a [new issue](https://github.com/Evo-Pro/discord.js-button-paginator-advanced/issues) or by creating a [pull request](https://github.com/Evo-Pro/discord.js-button-paginator-advanced/issues). Contributing to report issues will be really appreciated, we provide special roles for bug hunters and issuersissuers on our [discord server]() once we approve or verify your report.
