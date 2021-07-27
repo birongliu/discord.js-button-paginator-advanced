@@ -1,1 +1,2 @@
-edit now
+module.exports = {
+  function NAME(message, options = {}) {
