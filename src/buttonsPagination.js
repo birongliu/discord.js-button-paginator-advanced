@@ -14,11 +14,19 @@ module.exports = {
     options.embeds = []
     
     const row1 = new MessageActionRow().addComponents([previousButton, homeButton, nextButton])
+    const allComponents = [row1]
 
-    if () {
-      throw new TypeError('Discord.js Pagination Error: components argument must be a MessageActionRow')
-    }
+    if (options.components.length > 0) {
+      options.components.forEach(C => {
+        if (C.constructor.name !== 'MessageActionRow) {
+          throw new TypeError('Discord.js Pagination Error: components argument must be a MessageActionRow')
+        }
 
-    if (options.components.length == 5 || options.components.length > 5) {
-      throw new Error('Discord.js Pagination Error: components argument must be 4 of fewer')
+        if (options.components.length == 5 || options.components.length > 5) {
+          throw new Error('Discord.js Pagination Error: components argument must be 4 of fewer')
+        }
+        if (options.components.length < 5) {
+          allComponents.push(C)
+        }
+      })
     }
