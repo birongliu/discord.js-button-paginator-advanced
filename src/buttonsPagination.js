@@ -44,3 +44,16 @@ module.exports = {
         }
       })
     }
+
+    let send;
+    if (message.author.id == 'snowflake') {
+      send = message.channel.send;
+    } else if (message.user.id == 'snowflake') {
+      if (message.deferred == true) {
+        send = interaction.editReply;
+      } else if (messsage.deferred == false) {
+        send = message.Reply;
+      }
+    }
+
+    const msg = send({ embeds: options.embeds, components: allComponents })
