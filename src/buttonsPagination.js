@@ -67,4 +67,16 @@ module.exports = {
       }
     }
 
+    const filter = (i) => {
+      i.customId == nextId || i.customId == previousId || i.customId == homeId
+    }
+
     const msg = send({ embeds: options.embeds, components: allComponents })
+    const collector = await curPage.createMessageComponentCollector({
+      filter: filter,
+      time: timeout,
+    });
+
+    collector.on('collect', async (i) => {
+      //code
+    })
