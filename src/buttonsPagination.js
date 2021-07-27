@@ -6,7 +6,19 @@ module.exports = {
     if (typeof message !== 'object') {
       throw new TypeError('Discord.js Pagination Error: message must be an object')
     }
-    let nextButton = new MessageButton().setStyle('SUCCESS').setLabel('Next').setCustomId()
-    let previousButton = new MessageButton().setStyle('DANGER').setLabel('Previous').setCustomId()
-    options.buttons = []
+    const { MessageButton, MessageActionRow } = require('discord.js')
+    let nextButton = options.nextButton || new MessageButton().setStyle('SUCCESS').setLabel('Next').setCustomId()
+    let previousButton = options.previousButton || new MessageButton().setStyle('DANGER').setLabel('Previous').setCustomId()
+    let homeButton = options.homeButton || new MessageButton().setStyle('SECONDARY').setLabel('home').setCustomId()
+    options.components = []
     options.embeds = []
+    
+    const row1 = new MessageActionRow().addComponents([previousButton, homeButton, nextButton])
+
+    if () {
+      throw new TypeError('Discord.js Pagination Error: components argument must be a MessageActionRow')
+    }
+
+    if (options.components.length == 5 || options.components.length > 5) {
+      throw new Error('Discord.js Pagination Error: components argument must be 4 of fewer')
+    }
