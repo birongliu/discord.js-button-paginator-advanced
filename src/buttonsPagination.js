@@ -56,13 +56,14 @@ module.exports = {
       })
     }
 
+    let page = 0;
     let send;
     if (typeof message.author.username == 'string') {
       send = message.channel.send;
     } else if (typeof message.user.username == 'string') {
       if (message.deferred == true) {
         send = interaction.editReply;
-      } else if (messsage.deferred == false) {
+      } else if (message.deferred == false) {
         send = message.reply;
       }
     }
@@ -80,6 +81,14 @@ module.exports = {
     collector.on('collect', async (i) => {
       switch (i.customId) {
         case nextId:
+        page = page + 1 < pages.length ? ++page : 0;
+        break;
         case previousId:
+        page = page > 0 ? --page : pages.length - 1;
+        break;
         case homeId:
+        page = 0;
+        default:
+        break;
+      }
     })
