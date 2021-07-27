@@ -18,7 +18,7 @@ module.exports = {
 
     if (options.components.length > 0) {
       options.components.forEach(C => {
-        if (C.constructor.name !== 'MessageActionRow) {
+        if (C.constructor.name !== 'MessageActionRow') {
           throw new TypeError('Discord.js Pagination Error: components argument must be a MessageActionRow')
         }
 
