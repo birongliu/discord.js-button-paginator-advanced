@@ -72,8 +72,8 @@ module.exports = {
       i.customId == nextId || i.customId == previousId || i.customId == homeId
     }
 
-    const msg = send({ embeds: options.embeds, components: allComponents })
-    const collector = await curPage.createMessageComponentCollector({
+    const msg = send({ embeds: options.embeds[page], components: allComponents })
+    const collector = await msg.createMessageComponentCollector({
       filter: filter,
       time: timeout,
     });
@@ -81,20 +81,22 @@ module.exports = {
     collector.on('collect', async (i) => {
       switch (i.customId) {
         case nextId:
-        page = page + 1 < pages.length ? ++page : 0;
+        page = page + 1 < options.embeds.length ? ++page : 0;
         break;
         case previousId:
-        page = page > 0 ? --page : pages.length - 1;
+        page = page > 0 ? --page : options.embeds.length - 1;
         break;
         case homeId:
         page = 0;
         default:
         break;
       }
-      await i.defer();
+      await i.deferUpdate();
       await i.update({
-      embeds: options.embeds[page],
-      components: allComponents,
-      collector.resetTimer();
+        embeds: options.embeds[page],
+        components: allComponents,
       })
+      collector.resetTimer();
     })
+  }
+}
