@@ -6,12 +6,26 @@ module.exports = {
     if (typeof message !== 'object') {
       throw new TypeError('Discord.js Pagination Error: message must be an object')
     }
+
     const { MessageButton, MessageActionRow } = require('discord.js')
-    let nextButton = options.nextButton || new MessageButton().setStyle('SUCCESS').setLabel('Next').setCustomId()
-    let previousButton = options.previousButton || new MessageButton().setStyle('DANGER').setLabel('Previous').setCustomId()
-    let homeButton = options.homeButton || new MessageButton().setStyle('SECONDARY').setLabel('home').setCustomId()
+
+    const nextId = 
+    const previousId = 
+    const homeId = 
+
+    let nextButton = options.nextButton || new MessageButton().setStyle('SUCCESS').setLabel('Next').setCustomId(nextId)
+    let previousButton = options.previousButton || new MessageButton().setStyle('DANGER').setLabel('Previous').setCustomId(previousId)
+    let homeButton = options.homeButton || new MessageButton().setStyle('SECONDARY').setLabel('home').setCustomId(homeId)
+    let timeout = options.paginationTimeout || 120000;
     options.components = []
     options.embeds = []
+
+    if (options.embeds.length == 0) {
+      throw new Error('Discord.js Pagination Error: No embeds was provided')
+    }
+    if (options.embeds.length > 10) {
+      throw new Error('Discord.js Pagination Error: embeds must be 10 or fewer')
+    }
     
     const row1 = new MessageActionRow().addComponents([previousButton, homeButton, nextButton])
     const allComponents = [row1]
