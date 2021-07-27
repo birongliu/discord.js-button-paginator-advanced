@@ -115,5 +115,7 @@ paginationEmbed(message, pages, buttonList, timeout);
 </table>
 </div>
 
+---
 ## 📍Issues
-Any issues are welcomed! Report it by opening a [new issue]() or by creating a [pull request]()
+Any issues are welcomed! Please Report it by opening a [new issue](https://github.com/Evo-Pro/discord.js-button-paginator-advanced/issues) or by creating a [pull request](https://github.com/Evo-Pro/discord.js-button-paginator-advanced/issues). Contributing to report issues will be really appreciated, we provide special roles for bug hunters and issuersissuers on our [discord server]() once we approve or verify your report.
+> *Note: Open issues only after you check if the issue has not already been reported. Opening issues without proof or for any misleading purpose will lead to ban from this repository!*
