@@ -27,6 +27,16 @@ module.exports = {
     let nextButton = options.nextButton || new MessageButton().setStyle('SUCCESS').setLabel('Next').setCustomId(nextId)
     let previousButton = options.previousButton || new MessageButton().setStyle('DANGER').setLabel('Previous').setCustomId(previousId)
     let homeButton = options.homeButton || new MessageButton().setStyle('SECONDARY').setLabel('home').setCustomId(homeId)
+
+    if (nextButton.style == 'LINK') {
+      throw new TypeError('Discord.js Pagination Error: next button style must not be "LINK"')
+    }
+    if (previousButton.style == 'LINK') {
+      throw new TypeError('Discord.js Pagination Error: previous button style must not be "LINK"')
+    }
+    if (homeButton.style == 'LINK') {
+      throw new TypeError('Discord.js Pagination Error: home button style must not be "LINK"')
+    }
     let timeout = options.paginationTimeout || 120000;
     options.components = []
     options.embeds = []
