@@ -61,9 +61,9 @@ module.exports = {
     if (typeof message.author.username == 'string') {
       send = message.channel.send;
     } else if (typeof message.user.username == 'string') {
-      if (message.deferred == true) {
+      if (message.deferred) {
         send = interaction.editReply;
-      } else if (message.deferred == false) {
+      } else if (!message.deferred) {
         send = message.reply;
       }
     }
@@ -97,6 +97,31 @@ module.exports = {
         components: allComponents,
       })
       collector.resetTimer();
+    })
+
+    collector.on('end', async () => {
+      let edit;
+      if (typeof message.author.username == 'string') {
+        if (!msg.deleted) {
+          edit = msg.edit;
+        }
+        if (message.deleted) {
+          return;
+        }
+      }
+      if (typeof message.user.username == 'string') {
+        if (message.ephemeral) {
+          return;
+        }
+        if (!message.ephemeral && !message.deleted) {
+          if (message.defferred) {
+            edit = message.editReply;
+          }
+          if (!message.defferred) {
+            edit = message.editReply;
+          }
+        }
+      edit({embeds: options.embeds[page], components: []})
     })
   }
 }
