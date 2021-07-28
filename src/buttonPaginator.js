@@ -67,10 +67,11 @@ module.exports = {
         send = message.reply;
       }
     }
-
-    const filter = (i) => {
-      i.customId == nextId || i.customId == previousId || i.customId == homeId
-    }
+    options.components.forEach(Co => {
+      const filter = (i) => {
+        i.customId == nextId || i.customId == previousId || i.customId == homeId || i.customId == Co.customId
+      }
+    })
 
     const msg = send({ embeds: options.embeds[page], components: allComponents })
     const collector = await msg.createMessageComponentCollector({
