@@ -45,7 +45,7 @@ We recommend you to use this basic code first before you are going
 to edit and make your own code. You might have to make slight changes
 according to your bot from this example code.
 ```js
-const pagination = require('discordjs-button-pagination-advanced');
+const pagination = require('discord.js-button-paginator');
 pagination.buttonPaginator(message, {
   nextButton: /*discord.js button constructor*/, //default: 
   previousButton: /*discord.js button constructor*/, //default: 
