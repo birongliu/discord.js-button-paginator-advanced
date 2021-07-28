@@ -34,9 +34,6 @@ module.exports = {
     if (options.embeds.length == 0) {
       throw new Error('Discord.js Pagination Error: No embeds was provided')
     }
-    if (options.embeds.length > 10) {
-      throw new Error('Discord.js Pagination Error: embeds must be 10 or fewer')
-    }
     
     const row1 = new MessageActionRow().addComponents([previousButton, homeButton, nextButton])
     const allComponents = [row1]
