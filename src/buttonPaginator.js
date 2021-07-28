@@ -123,7 +123,17 @@ module.exports = {
           }
         }
       }
-      edit({embeds: options.embeds[page], components: []})
+      const newNext = nextButton.setDisabled(true)
+      const newHome = homeButton.setDisabled(true)
+      const newPrevious = previousButton.setDisabled(true)
+      const row1D = new MessageActionRow().addComponents([newPrevious, newHome, newNext]
+      const allComponentsD = [row1D]
+      if (options.components.length > 0) {
+        options.components,forEach(CoM => {
+          allConponentsD.push(CoM)
+        })
+      }
+      edit({embeds: options.embeds[page], components: allComponentsD})
     })
   }
 }
