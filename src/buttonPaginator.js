@@ -121,6 +121,7 @@ module.exports = {
             edit = message.editReply;
           }
         }
+      }
       edit({embeds: options.embeds[page], components: []})
     })
   }
