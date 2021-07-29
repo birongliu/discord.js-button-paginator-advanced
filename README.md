@@ -91,7 +91,7 @@ Contributers are always welcome! But we have set some requirements for it. Pleas
 
 <div align="center">
 
-Thanks to the following people who have contributed to this project: <br>&#8620; [@Stef-00012](https://github.com/Stef-00012) &#8619;<br>&#8620; [Myself lol](https://github.com/Evo-Pro) &#8619;
+**Thanks to the following people who have contributed to this project:** <br>&#8620; [@Stef-00012](https://github.com/Stef-00012) &#8619;<br>&#8620; [Myself lol](https://github.com/Evo-Pro) &#8619;
 
 </div>
 
