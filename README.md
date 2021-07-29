@@ -74,29 +74,16 @@ pagination.buttonPaginator(message, {
 })
 ```
 
-<br />
-
----
-
-<h2 align="center"> 😱Features </h2>
-
-* Custom Buttons
-* Time Resets After Every Clicks!
-* Custom Embeds
-* Easy And Customisable
-
----
-
 <img src="https://github.com/Evo-Pro/discord.js-button-paginator-advanced/blob/main/Images/PngItem_1191075.png" width="150" height="160" align="right">
+
+<br>
 
 ## 📍Issues
 
 Any issues are welcomed! Please Report it by opening a new [issue](https://github.com/Evo-Pro/discord.js-button-paginator-advanced/issues) or by creating a [pull request](https://github.com/Evo-Pro/discord.js-button-paginator-advanced/issues) at the earliest. Contributing to report issues will be really appreciated, we provide special roles for bug hunters and issuers on our [discord server]() once we approve or verify your report.
 > *Note: Open issues only after you check if the issue has not already been reported. Opening issues without proof or for any misleading purpose will lead to ban from this repository!*
 
----
-
----
+<br>
 
 <h2 align="center"> 💝Contributors </h2>
 
@@ -108,13 +95,15 @@ Thanks to the following people who have contributed to this project: <br>&#8620;
 
 </div>
 
+<br><br>
+
+---
+
+---
+
 <h2 align="center"> 💓Found this as usefull? </h2>
 
-<div align="center">
-
-**We would love to hear your feedbacks here. Donations help us to stay motivated and continue creating more and more unimaginable terrifying open sourced projects, just for you! We would also appreciate if you could give us 1 cute 🌟 for our hard work!**
-
-</div>
+<p>We would love to hear your feedbacks here. Donations help us to stay motivated and continue creating more and more unimaginable terrifying open sourced projects, just for you! We would also appreciate if you could give us 1 cute 🌟 for our hard work!</p>
 
 ---
 
