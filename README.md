@@ -101,7 +101,7 @@ Thanks to the following people who have contributed to this project: <br>&#8620;
 
 ---
 
-<h2 align="center"> 💓Found this as usefull? </h2>
+<h2 align="center"> 💓ꜰᴏᴜɴᴅ ᴛʜɪꜱ ᴀꜱ ᴜꜱᴇꜰᴜʟ?💓</h2>
 
 <p>We would love to hear your feedbacks here. Donations help us to stay motivated and continue creating more and more unimaginable terrifying open sourced projects, just for you! We would also appreciate if you could give us 1 cute 🌟 for our hard work!</p>
 
