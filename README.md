@@ -32,6 +32,9 @@ run button paginator without any errors or problems.
 <a href="https://github.com/discordjs/discord.js/"><img src="https://img.shields.io/badge/discord.js-13.0.0%20dev-5865F2" alt="Issues Badge"/></a>
 <br />
 
+## Previews
+<p align="center"> <i>Loved the project? Please consider donating to help it improve!</I></p>
+
 ## Installation
 
 ###### Console Command
@@ -84,4 +87,4 @@ Any issues are welcomed! Please Report it by opening a new [issue](https://githu
 
 ## Contributors
 Thanks to the following people who have contributed to this project:
-* @
+* @Stef-00012
