@@ -87,5 +87,6 @@ Any issues are welcomed! Please Report it by opening a new [issue](https://githu
 > *Note: Open issues only after you check if the issue has not already been reported. Opening issues without proof or for any misleading purpose will lead to ban from this repository!*
 
 ## Contributors
-Thanks to the following people who have contributed to this project:
+Contributers are always welcome! But we have set some requirements and liabilities for it. Please read them here and apply for a contributer via creating a ticket in our discord server and pinging me!<br> <br>Thanks to the following people who have contributed to this project:
 * [@Stef-00012](https://github.com/Stef-00012)
+* [Myself lol](https://github.com/Evo-Pro)
