@@ -26,7 +26,7 @@ it work perfectly, we recommend not to skip!*
 
 <br>
 
-## 📚ʀᴇQᴜɪʀᴇᴍᴇɴᴛꜱ
+<h1 align="center"> 📚ʀᴇQᴜɪʀᴇᴍᴇɴᴛꜱ </h1>
 
 You must atleast have the minimum of these requirements to
 run button paginator without any errors or problems.
@@ -39,7 +39,7 @@ run button paginator without any errors or problems.
 
 <br>
 
-## 📺ᴘʀᴇᴠɪᴇᴡꜱ
+<h1 align="center"> 📺ᴘʀᴇᴠɪᴇᴡꜱ</h1>
 
 <div align="center" >
 
@@ -49,7 +49,7 @@ run button paginator without any errors or problems.
 
 <br>
 
-## ❓ɪɴꜱᴛᴀʟʟᴀᴛɪᴏɴ
+<h1 align="center"> ❓ɪɴꜱᴛᴀʟʟᴀᴛɪᴏɴ </h1>
 
 ###### Console Command
 
@@ -58,7 +58,7 @@ npm install discord.js-button-paginator
 ```
 <br />
 
-## 📝ᴜꜱᴀɢᴇ
+<h1 align="center"> 📝ᴜꜱᴀɢᴇ </h1>
 
 We recommend you to use this basic code first before you are going
 to edit and make your own code. You might have to make slight changes
