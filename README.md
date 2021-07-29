@@ -32,11 +32,14 @@ run button paginator without any errors or problems.
 <a href="https://github.com/discordjs/discord.js/"><img src="https://img.shields.io/badge/discord.js-13.0.0%20dev-5865F2" alt="Issues Badge"/></a>
 <br />
 
-## Previews
+## 📺Previews
+<div align="center" >
 
 <i>Loved the project? Please consider [donating](https://lol.com) to help it improve!</i>
 
-## Installation
+</div>
+
+## ❓Installation
 
 ###### Console Command
 ```
@@ -86,7 +89,27 @@ pagination.buttonPaginator(message, {
 Any issues are welcomed! Please Report it by opening a new [issue](https://github.com/Evo-Pro/discord.js-button-paginator-advanced/issues) or by creating a [pull request](https://github.com/Evo-Pro/discord.js-button-paginator-advanced/issues) at the earliest. Contributing to report issues will be really appreciated, we provide special roles for bug hunters and issuers on our [discord server]() once we approve or verify your report.
 > *Note: Open issues only after you check if the issue has not already been reported. Opening issues without proof or for any misleading purpose will lead to ban from this repository!*
 
-## Contributors
-Contributers are always welcome! But we have set some requirements and liabilities for it. Please read them here and apply for a contributer via creating a ticket in our discord server and pinging me!<br> <br>Thanks to the following people who have contributed to this project:
-* [@Stef-00012](https://github.com/Stef-00012)
-* [Myself lol](https://github.com/Evo-Pro)
+---
+
+---
+## 💝Contributors
+
+Contributers are always welcome! But we have set some requirements for it. Please read them here and apply for a contributer via creating a ticket in our discord server by pinging me, if you want to be one among us!<br> <br>
+
+<div align="center">
+
+Thanks to the following people who have contributed to this project: <br>&#8620; [@Stef-00012](https://github.com/Stef-00012) &#8619;<br>&#8620; [Myself lol](https://github.com/Evo-Pro) &#8619;
+
+</div>
+
+## 💓Found this as usefull?
+
+<div align="center">
+
+**We would love to hear your feedbacks here. Donations help us to stay motivated and continue creating more and more unimaginable terrifying open sourced projects, just for you! We would also appreciate if you could give us 1 cute 🌟 for our hard work!**
+
+</div>
+
+---
+
+---
