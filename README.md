@@ -33,7 +33,8 @@ run button paginator without any errors or problems.
 <br />
 
 ## Previews
-<p align="center"> <i>Loved the project? Please consider donating to help it improve!</I></p>
+
+<i>Loved the project? Please consider [donating](https://lol.com) to help it improve!</i>
 
 ## Installation
 
@@ -87,4 +88,4 @@ Any issues are welcomed! Please Report it by opening a new [issue](https://githu
 
 ## Contributors
 Thanks to the following people who have contributed to this project:
-* @Stef-00012
+* [@Stef-00012](https://github.com/Stef-00012)
