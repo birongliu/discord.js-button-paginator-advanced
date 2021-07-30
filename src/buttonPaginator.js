@@ -20,9 +20,9 @@ module.exports = {
       return result;
     }
 
-    const nextId = options.nextButton.customId || getRandomString(20)
-    const previousId = options.previousButton.customId || getRandomString(20)
-    const homeId = options.homeButton.customId || getRandomString(20)
+    const nextId = getRandomString(20)
+    const previousId = getRandomString(20)
+    const homeId = getRandomString(20)
 
     let nextButton = options.nextButton || new MessageButton().setStyle('SUCCESS').setLabel('Next').setCustomId(nextId)
     let previousButton = options.previousButton || new MessageButton().setStyle('DANGER').setLabel('Previous').setCustomId(previousId)
