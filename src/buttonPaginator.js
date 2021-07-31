@@ -1,5 +1,4 @@
-module.exports = {
-  async function buttonPaginator(message, options = {}) {
+module.exports = async (message, options = {}) => {
     if (!message) {
       throw new Error('Discord.js Pagination Error: message argument wad not specified')
     }
@@ -143,4 +142,3 @@ module.exports = {
       edit({embeds: options.embeds[page], components: allComponentsD})
     })
   }
-}
