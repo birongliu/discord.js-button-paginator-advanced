@@ -1,1 +1,3 @@
-module.exports.buttonPaginator = require('./src/buttonPaginator.js')
+module.exports = {
+  buttonPaginator: require('./src/buttonPaginator.js')
+}
