@@ -32,7 +32,7 @@ You must atleast have the minimum of these requirements to
 run button paginator without any errors or problems.
 * Node.js: [^14.x](https://nodejs.org)<br />
 * discord.js: [13.0.0 dev](https://github.com/discordjs/discord.js/)
-* npm: 7.0.0
+* NPM: [^7.0.0](https://www.npmjs.com/)
 
 <a href="https://nodejs.org"><img src="https://img.shields.io/badge/Node.js-%5E14.x-green" alt="Issues Badge"/></a>
 <a href="https://github.com/discordjs/discord.js/"><img src="https://img.shields.io/badge/discord.js-13.0.0%20dev-5865F2" alt="Issues Badge"/></a>
