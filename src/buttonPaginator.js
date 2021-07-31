@@ -132,7 +132,7 @@ module.exports = async (message, options = {}) => {
       const newNext = nextButton.setDisabled(true)
       const newHome = homeButton.setDisabled(true)
       const newPrevious = previousButton.setDisabled(true)
-      const row1D = new MessageActionRow().addComponents([newPrevious, newHome, newNext]
+      const row1D = new MessageActionRow().addComponents([newPrevious, newHome, newNext])
       const allComponentsD = [row1D]
       if (options.components.length > 0) {
         options.components,forEach(CoM => {
