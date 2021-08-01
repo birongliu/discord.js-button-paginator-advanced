@@ -37,8 +37,10 @@ module.exports = async (message, options = {}) => {
       throw new TypeError('Discord.js Pagination Error: home button style must not be "LINK"')
     }
     let timeout = options.paginationTimeout || 120000;
-    options.components = []
-    options.embeds = []
+    
+    if (typeof options.embeds != 'array') {
+      throw new TypeError('Discord.js Pagination Error: embeds must be an array')
+    }
 
     if (options.embeds.length == 0) {
       throw new Error('Discord.js Pagination Error: No embeds was provided')
@@ -48,6 +50,9 @@ module.exports = async (message, options = {}) => {
     const allComponents = [row1]
 
     if (options.components.length > 0) {
+      if (typeof options.components != 'array') {
+        throw new TypeError('Discord.js Pagination Error: components must be an array')
+      }
       options.components.forEach(C => {
         if (C.constructor.name !== 'MessageActionRow') {
           throw new TypeError('Discord.js Pagination Error: components argument must be a MessageActionRow')
