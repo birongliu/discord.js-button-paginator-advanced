@@ -38,7 +38,7 @@ module.exports = async (message, options = {}) => {
     }
     let timeout = options.paginationTimeout || 120000;
     
-    if (typeof options.embeds != 'array') {
+    if (!Array.isArray(options.embeds)) {
       throw new TypeError('Discord.js Pagination Error: embeds must be an array')
     }
 
@@ -50,7 +50,7 @@ module.exports = async (message, options = {}) => {
     const allComponents = [row1]
 
     if (options.components.length > 0) {
-      if (typeof options.components != 'array') {
+      if (!Array.isArray(options.components)) {
         throw new TypeError('Discord.js Pagination Error: components must be an array')
       }
       options.components.forEach(C => {
