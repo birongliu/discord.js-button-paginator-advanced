@@ -78,6 +78,7 @@ module.exports = async (message, options = {}) => {
         send = message.reply;
       }
     }
+    //TODO: out of scope | please fix this as it will be required in creation of message component collector as filter
     options.components.forEach(Co => {
       const filter = (i) => {
         i.customId == nextId || i.customId == previousId || i.customId == homeId || i.customId == Co.customId
